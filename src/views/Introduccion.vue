@@ -7,17 +7,14 @@
         span
           i.fas.fa-info
       h1 Introducción
-
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.py-4
-
         .row.align-items-center.mb-5
           .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src="@/assets/curso/introduccion/intro_foto_01.png" alt="Agricultor con sombrero y canasta de productos" style="max-width: 295px").m-auto
           .col-lg-9(data-aos="fade-left")
             p.mb-4 Damos continuidad a la Ruta Formativa del Instrumento de Planificación Predial para la Transición Agroecológica (IPPTA), un recorrido pedagógico por cuatro Estaciones Formativas, cada una diseñada para fortalecer la comprensión integral del territorio y proyectar soluciones contextualizadas.
-
             //- Sección 2: fondo verde full-width — texto izquierda + foto derecha
             .bg-color-1
               .row.justify-content-center.align-items-center
@@ -26,8 +23,6 @@
                     p.my-0 En la segunda de las cuatro estaciones nos enfocamos en la producción como tal. La <b>Estación Productiva del IPPTA</b> traza caminos para transformar el predio en un espacio de diversidad, regeneración y autonomía. Esta estación profundiza en el diseño técnico-funcional del agroecosistema, reconociendo que producir con criterios agroecológicos implica comprender las causas estructurales de la crisis del sistema agroalimentario para proyectar alternativas desde el territorio.
                 .col-xl-auto(data-aos="fade-right")
                   img(src="@/assets/curso/introduccion/intro_foto_02.png", style="max-width: 435px", alt="").m-auto.mt-xl-0.mt-4
-
-
         //- Sección 3: barra amarilla highlight
         .bg-color-2
           .px-4.px-md-5.py-4
@@ -36,7 +31,6 @@
                 img(src="@/assets/curso/introduccion/intro_icono_01.svg" style="max-width: 90px" alt="Icono Estación Socioeconómica").mx-auto
               .col-lg(data-aos="fade-left")
                 p.mb-0 La siguiente parada será la <b>Estación Socioeconómica</b>, donde exploraremos las dimensiones sociales, culturales y económicas que configuran los sistemas de vida rurales. Aquí se analizarán las dinámicas comunitarias, los circuitos económicos locales y las estrategias de fortalecimiento territorial.
-
         //- Sección 4: icono+texto izquierda + foto derecha
         .bg-color-3
           .row.align-items-center.mb-5.mt-5
@@ -51,9 +45,8 @@
             .col-lg-4(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/introduccion/intro_foto_03.png" alt="Mujer campesina con racimo de bananos").m-auto
-
         //- Sección 5: foto izquierda + texto+icono derecha
-        .row.align-items-center.mb-5
+        .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src="@/assets/curso/introduccion/intro_foto_04.png" alt="Invernadero con surcos de cultivos").m-auto

@@ -6,30 +6,24 @@
       .titulo-principal__numero
         span 4
       h1 Agrobiodiversidad
-
     //- ## bloque-texto-g
-    .bloque-texto-g.bg-color-7.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
+    .bloque-texto-g.bg-color-7.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 #[b La agrobiodiversidad] representa la variedad y variabilidad de animales, plantas y microorganismos que forman parte de los agroecosistemas, incluyendo cultivos, razas animales, especies silvestres asociadas, microorganismos del suelo, polinizadores y controladores biológicos. Esta definición, adoptada por la Convención sobre la Diversidad Biológica de las Naciones Unidas, reconoce que los sistemas agrícolas están sostenidos por una red viva de interacciones ecológicas, culturales y productivas.
-
     //- //p (suelto)
-    p.mb-5 Desde el enfoque agroecológico, la agrobiodiversidad no es solo un componente del paisaje, sino una #[b estrategia clave para fortalecer la resiliencia del predio], mejorar la eficiencia ecológica y consolidar la autonomía territorial. Su manejo implica conservar, diversificar y activar relaciones funcionales entre especies, saberes y procesos.
-
+    p.mb-0 Desde el enfoque agroecológico, la agrobiodiversidad no es solo un componente del paisaje, sino una #[b estrategia clave para fortalecer la resiliencia del predio], mejorar la eficiencia ecológica y consolidar la autonomía territorial. Su manejo implica conservar, diversificar y activar relaciones funcionales entre especies, saberes y procesos.
     //- ## Separador
     Separador
-
     //- ### 4.1. Dimensiones de la agrobiodiversidad
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1. Dimensiones de la agrobiodiversidad
-
     //- //p
     p.mb-5 Para comprender su complejidad y orientar su planificación, analizar la agrobiodiversidad a partir de #[b seis dimensiones complementarias]:
-
     //- ## tarjetas-foto-hover col-lg-4
-    .row.mb-5
+    .row
       .col-lg-4.mb-4(data-aos="flip-left")
         .crd_hover_txt
           .crd_hover_txt--img
@@ -78,22 +72,18 @@
           .crd_hover_txt--body
             h4.mb-3 Cultural
             p.mb-0 Saberes, prácticas, rituales y significados vinculados al manejo y uso de las especies.
-
     //- ## Separador
     Separador
-
     //- ### 4.2. Tipos de biodiversidad en el agroecosistema
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2. Tipos de biodiversidad en el agroecosistema
-
     //- //p
-    p.mb-5 Además de sus dimensiones, la agrobiodiversidad puede analizarse en función de su #[b rol dentro del sistema productivo y ecológico]. Esta clasificación permite una lectura integral del agroecosistema, reconociendo no solo lo que se cultiva o cría, sino también lo que #[b acompaña, indica o puede ser activado como recurso territorial].
-
+    p.mb-4 Además de sus dimensiones, la agrobiodiversidad puede analizarse en función de su #[b rol dentro del sistema productivo y ecológico]. Esta clasificación permite una lectura integral del agroecosistema, reconociendo no solo lo que se cultiva o cría, sino también lo que #[b acompaña, indica o puede ser activado como recurso territorial].
     //- ## imagen-compuesto 4:8 (pestanas-verticales)
-    .row.align-items-center.mb-5
-      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.align-items-center.mb-4
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema4/8.png" alt="")
+          img(src="@/assets/curso/tema4/8.png" alt="" style="max-width: 400px").m-auto
       .col-lg-8(data-aos="fade-left")
         TabsA.color-acento-contenido
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Productiva")
@@ -106,41 +96,34 @@
             p.mb-0 Especies con potencial ecológico, cultural o económico que pueden incorporarse al sistema para mejorar su funcionamiento: insectos depredadores, plantas nativas, hongos benéficos.
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Antagonista")
             p.mb-0 Especies que afectan negativamente el agroecosistema: plagas, patógenos o arvenses invasoras. Indican desequilibrios y pueden ser reguladas mediante biodiversidad funcional (rotaciones, cobertura, control biológico).
-
     //- //p (suelto)
-    p.mb-5 Esta mirada amplia y dinámica de la agrobiodiversidad permite diseñar sistemas más #[b resilientes, eficientes y culturalmente significativos ], en los que se reconoce el valor de #[b lo cultivado, lo espontáneo, lo simbólico y lo relacional ] como parte de un mismo tejido agroecológico.
-
+    p.mb-0 Esta mirada amplia y dinámica de la agrobiodiversidad permite diseñar sistemas más #[b resilientes, eficientes y culturalmente significativos ], en los que se reconoce el valor de #[b lo cultivado, lo espontáneo, lo simbólico y lo relacional ] como parte de un mismo tejido agroecológico.
     //- ## Separador
     Separador
-
     //- ### 4.3. Semillas nativas y criollas
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.3. Semillas nativas y criollas
-
     //- //p
     p.mb-5 Las semillas nativas y criollas son una expresión viva de la agrobiodiversidad y del patrimonio biocultural de los pueblos. Muchas de ellas han sido domesticadas y cuidadas por comunidades campesinas e indígenas durante milenios, a través de procesos de selección y adaptación que reflejan una relación profunda con el territorio. Son semillas con historia, memoria y propósito.
-
     //- ## bgcolor-icono-card col:10
     .row.justify-content-center.mb-5
       .col-lg-10
         .bg-color-2.p-4.rounded-3(data-aos="fade-up")
           .row.align-items-center
             .col-lg-auto
-              img(src="@/assets/curso/tema4/svg/2.svg" style="max-width: 90px" alt="").m-auto.mb-4.mb-lg-0
+              img(src="@/assets/curso/tema4/svg/2.svg" style="max-width: 190px" alt="").m-auto.mb-4.mb-lg-0
             .col-lg
               .tarjeta.bg-white.p-4
                 p.mb-0 Estas variedades representan un bien común, no solo por su valor alimentario y ecológico, sino también por el conocimiento colectivo que las sostiene. A diferencia de las semillas comerciales, las semillas criollas y nativas pueden reproducirse, intercambiarse y evolucionar en finca, lo que fortalece la autonomía productiva y contribuye a la soberanía alimentaria de las comunidades rurales.
-
     //- //p
     p.mb-5 Las funciones agroecológicas y culturales de las semillas nativas y criollas son:
-
     //- ## imagen-compuesto 4:8 (carrusel-tarjetas-icono)
     .row.align-items-center.mb-5
-      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema4/9.png" alt="")
+          img(src="@/assets/curso/tema4/9.png" alt="" style="max-width: 400px").m-auto
       .col-lg-8(data-aos="fade-left")
-        SlyderF(columnas="col-lg-6 col-xl-6")
+        SlyderF(columnas="col-md-6 col-xl-6")
           .tarjeta.bg-white.p-4.shadow(data-aos="zoom-in-up")
             .row.justify-content-center.mb-4
               .col-6
@@ -176,22 +159,17 @@
                   img(src="@/assets/curso/tema4/svg/7.svg" alt="")
             h5.text-center Memoria biocultural
             p.mb-0.text-center Cada semilla guarda historias, rituales, calendarios agrícolas y saberes comunitarios transmitidos entre generaciones.
-
     //- //p (suelto)
-    p.mb-5 El rescate, la conservación y el intercambio de estas semillas son acciones clave para #[b defender la diversidad, fortalecer la autonomía rural y proteger los sistemas de vida locales ] frente a los modelos uniformes e industriales de producción.
-
+    p.mb-0 El rescate, la conservación y el intercambio de estas semillas son acciones clave para #[b defender la diversidad, fortalecer la autonomía rural y proteger los sistemas de vida locales ] frente a los modelos uniformes e industriales de producción.
     //- ## Separador
     Separador
-
     //- ### 4.4. Diversidad vegetal
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.4. Diversidad vegetal
-
     //- //p
     p.mb-5 La #[b diversidad vegetal] en el predio agroecológico es la base de #[b múltiples funciones ecológicas, productivas y culturales] que fortalecen la resiliencia del sistema. Cada especie aporta #[b estructura, nutrientes, relaciones simbióticas] y respuestas adaptativas que enriquecen el agroecosistema. Esta diversidad se expresa en el #[b espacio, el tiempo y la interacción] entre plantas, suelos, animales y saberes. Diseñar con diversidad vegetal permite:
-
     //- ## imagen-compuesto 4:8 (6 bgcolor-icono-texto en grid 6)
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-4
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema4/10.png" alt="")
@@ -239,18 +217,15 @@
                   img(src="@/assets/curso/tema4/svg/13.svg" style="max-width: 90px" alt="").m-auto.mb-4.mb-lg-0
                 .col-lg
                   p.mb-0.text-center.text-lg-start Sostener la biodiversidad funcional del territorio.
-
     //- //p
-    p.mb-5 A diferencia de una visión que se limita a contar el número de especies, la agroecología propone organizar las plantas según sus #[b funciones ecológicas], lo que permite rediseñar predios más equilibrados, con #[b menor dependencia de insumos externos] y #[b mayor capacidad de regeneración].
-
+    p.mb-4 A diferencia de una visión que se limita a contar el número de especies, la agroecología propone organizar las plantas según sus #[b funciones ecológicas], lo que permite rediseñar predios más equilibrados, con #[b menor dependencia de insumos externos] y #[b mayor capacidad de regeneración].
     //- //p
-    p.mb-5 Los grupos funcionales de plantas en el agroecosistema son:
-
+    p.mb-4 Los grupos funcionales de plantas en el agroecosistema son:
     //- ## acordeon 3:9 (5 paneles)
-    .row.align-items-center.mb-5
-      .col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.align-items-center
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema4/11.png" alt="")
+          img(src="@/assets/curso/tema4/11.png" alt="" style="max-width: 400px").m-auto
       .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .div(titulo="Alimenticias para consumo humano")
@@ -263,10 +238,9 @@
             p.mb-0 Extraen nutrientes de capas profundas y los reincorporan al sistema. Ejemplos: nabo forrajero, yuca, sorgo, rábano.
           .div(titulo="Coberturas vivas y protectoras del suelo")
             p.mb-0 Conservan humedad, protegen contra la erosión y alimentan la biota edáfica. Ejemplos: mucuna, centeno, avena, canavalia, calabaza.
-
     //- ## acordeon 9:3 (4 paneles)
-    .row.align-items-center.mb-5
-      .col-lg-9(data-aos="fade-right")
+    .row.align-items-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .div(titulo="Aromáticas, medicinales y repelentes")
             p.mb-0 Regulan insectos, aportan salud familiar y diversidad cultural. Ejemplos: ruda, albahaca, ajenjo, menta, citronela.
@@ -276,26 +250,21 @@
             p.mb-0 Atraen plagas específicas para facilitar su monitoreo y control ecológico. Ejemplos: maíz (gusano cogollero), caléndula (pulgones), tabaco (trips).
           .div(titulo="Bioindicadoras")
             p.mb-0 Reflejan el estado del suelo y el equilibrio ecológico. Ejemplos: ortiga (nitrógeno), verdolaga (humedad), cola de caballo (compactación).
-      .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
+      .col-lg-3(data-aos="fade-left")
         figure
-          img(src="@/assets/curso/tema4/12.png" alt="")
-
+          img(src="@/assets/curso/tema4/12.png" alt="" style="max-width: 400px").m-auto
     //- //p (suelto)
-    p.mb-5 Esta clasificación funcional permite integrar la diversidad vegetal al diseño agroecológico, activando su potencial para #[b nutrir, proteger, regular y regenerar] el sistema desde una lógica sistémica y territorial.
-
+    p.mb-0 Esta clasificación funcional permite integrar la diversidad vegetal al diseño agroecológico, activando su potencial para #[b nutrir, proteger, regular y regenerar] el sistema desde una lógica sistémica y territorial.
     //- ## Separador
     Separador
-
     //- ### 4.5. Diversidad animal
     #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.5. Diversidad animal
-
     //- //p
     p.mb-5 La diversidad animal en el agroecosistema activa relaciones ecológicas clave para la resiliencia, la fertilidad y la autonomía del predio. Cada especie cumple funciones específicas que van más allá de la producción de carne, leche o huevos: acumula biomasa, recicla nutrientes, regula poblaciones, mejora la estructura del suelo y fortalece la cultura alimentaria local.
-
     //- ## compuesto-imagen 8:4
-    .row.align-items-center.mb-5
-      .col-lg-8(data-aos="fade-right")
+    .row.align-items-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-2.p-4.rounded-3
           .row.align-items-center
             .col-lg-auto
@@ -305,10 +274,8 @@
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/13.png" alt="")
-
     //- //p
     p.mb-5 Los grupos funcionales de animales en el agroecosistema son:
-
     //- ## slider (6 slides)
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -361,9 +328,8 @@
               h5 Bioindicadores
               p.mb-0 Su presencia, comportamiento o variación reflejan el estado ecológico, climático o cultural del agroecosistema. 
               p.mb-0 #[b Ejemplos]: abejas, ranas, aves silvestres, hormigas; comportamientos animales que anuncian lluvias, heladas o sequías.
-
     //- ## bgcolor-icono-texto
-    .bg-color-2.p-4.rounded-3.mb-5(data-aos="fade-in")
+    .bg-color-2.p-4.rounded-3(data-aos="fade-in")
       .row.align-items-center
         .col-lg-auto
           img(src="@/assets/curso/tema4/svg/15.svg" style="max-width: 90px" alt="").m-auto.mb-4.mb-lg-0

@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre fundamentos productivos para el diagnóstico predial que organiza seis categorías principales: fundamentos de la transición, diagnóstico predial productivo, suelo como organismo vivo, agrobiodiversidad, autonomía funcional y mapas productivos; cada una con subtemas relacionados como crisis ecosistémica, manejo del suelo, tipos de biodiversidad, integración cultural y uso del suelo.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

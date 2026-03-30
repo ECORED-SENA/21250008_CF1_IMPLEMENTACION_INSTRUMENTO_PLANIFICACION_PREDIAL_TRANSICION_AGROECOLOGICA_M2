@@ -6,30 +6,25 @@
       .titulo-principal__numero
         span 1
       h1 Fundamentos productivos de la transición
-
     //- ## bloque-texto-g
-    .bloque-texto-g.bg-color-8.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
+    .bloque-texto-g.bg-color-8.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La urgencia de la transición agroecológica es motivada por la crisis productiva que atraviesa el planeta y sus externalidades concretas en los territorios rurales. Esta unidad temática permite analizar las causas estructurales del impacto del sistema agroalimentario dominante en las bases de la producción agropecuaria, los equilibrios naturales y la urgencia de recuperar prácticas de manejo adecuadas a las bases de la producción.
-
     //- ## Separador
     Separador
-
     //- ### 1.1. Sistema Agroalimentario Dominante - SAD
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1. Sistema Agroalimentario Dominante - SAD
-
     //- //p
     p.mb-5 La transición agroecológica se plantea como una #[b respuesta a la crisis profunda del modelo productivo convencional]. El SAD ha priorizado la #[b productividad inmediata] por encima de la salud de los ecosistemas, generando consecuencias graves:
-
     //- ## imagen-compuesto 4:8 (5 bgcolor-icono-texto con grid 6)
     .row.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema1/2.png" alt="")
+          img(src="@/assets/curso/tema1/2.png" alt="" style="max-width: 400px").m-auto
       .col-lg-8(data-aos="fade-left")
         .row
           .col-lg-6.mb-3(data-aos="fade-up")
@@ -67,48 +62,46 @@
                   img(src="@/assets/curso/tema1/7.png" style="max-width: 90px" alt="").m-auto.mb-4.mb-lg-0
                 .col-lg
                   p.mb-0.text-center.text-lg-start Empobrecimiento y compactación del suelo.
-
     //- ## compuesto-imagen 9:3
     .row.align-items-center.mb-5
       .col-lg-9(data-aos="fade-right")
         p.mb-4 Este modelo ha promovido:
-        .bg-color-7.overflow-hidden
-          .row.align-items-center
-            .col-xl-7.ps-5.pe-3
-              .tarjeta.bg-white.p-4
-                ul.lista-ul.mb-0
-                  li
-                    i.fas.fa-circle-check
-                    | Monocultivo extensivo.
-                  li
-                    i.fas.fa-circle-check
-                    | Uso intensivo de agroquímicos.
-                  li
-                    i.fas.fa-circle-check
-                    | Mecanización sin criterios ecológicos.
-                  li.mb-0
-                    i.fas.fa-circle-check
-                    | Homogeneización de prácticas productivas.
-            .col-xl-5
+          .row
+            .col-xl-7.bg-color-7.overflow-hidden
+              .p-4
+                .tarjeta.bg-white.h-100
+                  .p-4
+                    ul.lista-ul.mb-0
+                      li
+                        i.fas.fa-circle-check
+                        | Monocultivo extensivo.
+                      li
+                        i.fas.fa-circle-check
+                        | Uso intensivo de agroquímicos.
+                      li
+                        i.fas.fa-circle-check
+                        | Mecanización sin criterios ecológicos.
+                      li.mb-0
+                        i.fas.fa-circle-check
+                        | Homogeneización de prácticas productivas.
+            .col-xl-5.ps-xl-0
               figure
                 img(src="@/assets/curso/tema1/8.png" alt="").img-fluid
         p.mt-4 Como resultado, se han alterado profundamente los #[b equilibrios ecológicos y culturales del territorio], afectando también la #[b soberanía alimentaria], la #[b salud rural] y la #[b autonomía de las comunidades].
       .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
         figure
-          img(src="@/assets/curso/tema1/9.png" alt="").m-auto
-
+          img(src="@/assets/curso/tema1/9.png" alt="" style="max-width: 370px").m-auto
     //- ## bgcolor-icono-texto
-    .bg-color-6.p-4.rounded-3.mb-5(data-aos="fade-up")
+    .bg-color-6.p-4.rounded-3(data-aos="fade-up")
       .row.align-items-center
         .col-lg-auto
           img(src="@/assets/curso/tema1/10.png" style="max-width: 90px" alt="").m-auto.mb-4.mb-lg-0
         .col-lg
           p.mb-0 Desde esta perspectiva, se propone una lectura crítica de los síntomas del colapso productivo, tanto en el predio como en el paisaje, reconociendo las señales que permiten activar procesos de restauración. La transición agroecológica se fortalece al reconstruir la relación entre producción y naturaleza, incorporando diversidad, regeneración y diálogo de saberes en cada decisión productiva.
-
     //- ### 1.2 Impactos del sistema agroalimentario dominante (SAD)
+    separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Impactos del sistema agroalimentario dominante (SAD)
-
     //- ## imagen-compuesto 4:8 (//p + //bgcolor-texto con indentación)
     .row.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
@@ -135,10 +128,9 @@
               .lista-ol--cuadro__vineta
                 span d
               | Reducción de la fertilidad regenerativa.
-
     //- ## compuesto-imagen 7:5
     .row.align-items-center.mb-5
-      .col-lg-7(data-aos="fade-right")
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-9.p-4.rounded-3
           .row.align-items-center
             .col-lg-auto
@@ -148,23 +140,19 @@
       .col-lg-5.mb-lg-0(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/13.png" alt="").m-auto
-
     //- //p (suelto)
     p.mb-5 Además, el exceso de nutrientes puede alcanzar cuerpos de agua cercanos, provocando #[b procesos de eutrofización], que deterioran la calidad del agua, reducen el oxígeno disponible y afectan la biodiversidad acuática, con impactos negativos para el uso comunitario y los servicios ecosistémicos.
-
     //- #### Principales impactos del uso de fertilizantes sintéticos
     .titulo-h3.mb-5(data-aos="fade-right")
       .titulo-h3__fondo
         img.titulo-h3__imagen(src="@/assets/bullets/title-h3.svg")
         h3.titulo-h3__texto Principales impactos del uso de fertilizantes sintéticos
-
     //- //p
     p.mb-5 Los efectos negativos más relevantes que genera el uso prolongado de fertilizantes sintéticos sobre el suelo, el agua y la autonomía productiva del agroecosistema:
-
     //- //wrapper: bg-fondo-1 + ## carrusel-tarjetas-icono
     .bg-full-width.bg-fondo-2.mb-5
       .px-4.px-md-5.py-4
-        SlyderF(columnas="col-lg-6 col-xl-3")
+        SlyderF(columnas="col-md-6 col-xl-3")
           .tarjeta.bg-white.p-4.shadow(data-aos="zoom-in-up")
             .row.justify-content-center.mb-4
               .col-6
@@ -200,62 +188,53 @@
                   img(src="@/assets/curso/tema1/svg/18.svg" alt="")
             h5.text-center Dependencia de insumos externos
             p.mb-0.text-center Aumento de costos de producción y pérdida de autonomía predial.
-
         br
         br
         br
         br
-        br
-        br
-
     //- ## bloquefoto-card (con indentación: //p + //list + //p)
-    .bg-color-7.rounded-3.overflow-hidden.mb-5(data-aos="fade-up" style="margin-top: -7rem")
+    .rounded-3.overflow-hidden.mb-5(data-aos="fade-up" style="margin-top: -7rem")
       .row.align-items-center
-        .col-xl-7.ps-5.pe-3.py-4
-          .tarjeta.bg-white.p-4
-            p.mt-2 La #[b transición agroecológica] busca #[b restaurar estos equilibrios] mediante prácticas regenerativas como:
-            ul.lista-ul
-              li
-                i.fas.fa-circle-check
-                | Uso de materia orgánica.
-              li
-                i.fas.fa-circle-check
-                | Rotación de cultivos.
-              li
-                i.fas.fa-circle-check
-                | Asociación con leguminosas.
-              li
-                i.fas.fa-circle-check
-                | Aplicación de biofertilizantes producidos localmente.
-            p.mb-2 Estas prácticas contribuyen a fortalecer la #[b fertilidad viva del suelo], disminuyendo la dependencia de insumos industriales y promoviendo sistemas más resilientes, autónomos y ecológicamente equilibrados.
+        .col-xl-7
+          .p-4.bg-color-7
+            .tarjeta.bg-white.p-4
+              p.mt-2 La #[b transición agroecológica] busca #[b restaurar estos equilibrios] mediante prácticas regenerativas como:
+              ul.lista-ul
+                li
+                  i.fas.fa-circle-check
+                  | Uso de materia orgánica.
+                li
+                  i.fas.fa-circle-check
+                  | Rotación de cultivos.
+                li
+                  i.fas.fa-circle-check
+                  | Asociación con leguminosas.
+                li
+                  i.fas.fa-circle-check
+                  | Aplicación de biofertilizantes producidos localmente.
+              p.mb-2 Estas prácticas contribuyen a fortalecer la #[b fertilidad viva del suelo], disminuyendo la dependencia de insumos industriales y promoviendo sistemas más resilientes, autónomos y ecológicamente equilibrados.
         .col-xl-5
           figure
             img(src="@/assets/curso/tema1/19.png" alt="").img-fluid
-
     //- #### Fertilizantes sintéticos y alteración de los ciclos biogeoquímicos
     .titulo-h3.mb-5(data-aos="fade-right")
       .titulo-h3__fondo
         img.titulo-h3__imagen(src="@/assets/bullets/title-h3.svg")
         h3.titulo-h3__texto Fertilizantes sintéticos y alteración de los ciclos biogeoquímicos
-
     //- //p
     p.mb-5 A continuación, se presenta un video que analiza los impactos ecológicos del uso de fertilizantes sintéticos en la agricultura industrial y su relación con la alteración de los ciclos biogeoquímicos, destacando la necesidad de una transición hacia prácticas agroecológicas regenerativas.
-
     //- ## video
     figure.mb-5(data-aos="fade-up")
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/J9W66gPH0DM?si=ErCCirwJvi3rPKct" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption.mt-2 Título del video
-
     //- #### Homogeneización productiva y lógica contra natura
     .titulo-h3.mb-5(data-aos="fade-right")
       .titulo-h3__fondo
         img.titulo-h3__imagen(src="@/assets/bullets/title-h3.svg")
-        h3.titulo-h3__texto Homogeneización productiva y lógica #[em contra natura]
-
+        h3.titulo-h3__texto Homogeneización productiva y lógica contra natura
     //- ## compuesto-imagen 8:4
-    .row.align-items-center.mb-5
-      .col-lg-8(data-aos="fade-right")
+    .row.align-items-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-9.p-4.rounded-3
           .row.align-items-center
             .col-lg-auto
@@ -266,10 +245,8 @@
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/21.png" alt="").m-auto
-
     //- //p (suelto)
     p.mb-5 En muchos territorios rurales, la #[b diversidad que antes caracterizaba los agroecosistemas] ha sido sustituida por esquemas #[b uniformes], diseñados para responder a demandas del mercado y no a las necesidades del territorio. Esto ha transformado el predio en una estructura #[b rígida y frágil], incapaz de adaptarse a cambios climáticos, enfermedades o fluctuaciones del mercado. A continuación se presenta la Estación Productiva del IPPTA, orientada al diseño agroecológico del predio desde una mirada integral y contextualizada:
-
     //- ## slider
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -295,13 +272,10 @@
             .col-lg-7.order-1.mb-3.mb-lg-0
               h5 Alternativa agroecológica: rediseñar desde la diversidad
               p.mb-0 La transición agroecológica invita a rediseñar el predio como un sistema diverso e integrado, coherente con las condiciones ecológicas, sociales y culturales de cada territorio. Para ello, se fomentan prácticas como la diversificación de cultivos y animales, la asociación funcional entre especies, las rotaciones planificadas y la integración de zonas de conservación. Estas acciones restauran la resiliencia ecológica, fortalecen la soberanía alimentaria y reconstruyen el vínculo entre la producción y el territorio.
-
     //- ##### Impactos más relevantes de la homogeneización productiva
     h4.mb-5.titulo-h4(data-aos="fade-right") Impactos más relevantes de la homogeneización productiva
-
     //- //p
     p.mb-5 A continuación, se enumeran los principales efectos negativos que genera la lógica de homogeneización sobre el agroecosistema y la cultura rural:
-
     //- ## tarjetas-icono col:4 (sin descripción, solo título)
     .row.mb-5
       .col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -332,27 +306,24 @@
               figure
                 img(src="@/assets/curso/tema1/svg/28.svg" alt="")
           h5.text-center Fragilidad ante enfermedades y variabilidad climática.
-
     //- ### Dependencia tecnológica y concentración de insumos
     .titulo-h3.mb-5(data-aos="fade-right")
       .titulo-h3__fondo
         img.titulo-h3__imagen(src="@/assets/bullets/title-h3.svg")
         h3.titulo-h3__texto Dependencia tecnológica y concentración de insumos
-
     //- ## compuesto-imagen 8:4 (bloquefoto + //p)
     .row.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
-        .bg-color-1
-          .row.justify-content-center.align-items-center
-            .col-xl-auto
-              img(src="@/assets/curso/tema1/29.png" style="max-width: 420px" alt="")
-            .col-xl
+        .row.justify-content-center.align-items-center
+          .col-xl-auto.mb-4.mb-xl-0
+            img(src="@/assets/curso/tema1/29.png" style="max-width: 420px" alt="").m-auto
+          .col-xl.bg-color-1
+            .p-4
               p.mb-0 Uno de los efectos menos visibles pero más profundos del Sistema Agroalimentario Dominante (SAD) es la pérdida de autonomía tecnológica en los predios rurales, provocada por la concentración del control sobre los insumos básicos de producción.
         p.mt-4 Con la intensificación del SAD, la producción agropecuaria depende cada vez más de insumos externos como semillas híbridas o transgénicas, fertilizantes sintéticos, maquinaria especializada y agroquímicos. Estos insumos son controlados por grandes corporaciones, que imponen sus condiciones desde fuera del territorio, afectando directamente la autonomía económica, técnica y organizativa de las familias campesinas.
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/30.png" alt="").m-auto
-
     //- ## tarjetas-conectadas
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5(data-aos="fade-right")
@@ -371,13 +342,10 @@
           .col
             h4 Propuesta agroecológica
         p.mb-0 Desde la perspectiva agroecológica, la transición requiere recuperar capacidades locales para producir insumos propios. Esto integra el uso de semillas criollas y nativas, la elaboración de abonos orgánicos y preparados naturales, herramientas apropiadas y de bajo costo, y la valoración de saberes campesinos y comunitarios. Estas estrategias fortalecen la autonomía funcional, reducen la dependencia del mercado y permiten ajustar el diseño predial a las condiciones reales del territorio.
-
     //- #### Factores que aumentan la dependencia tecnológica
     h4.mb-5.titulo-h4(data-aos="fade-right") Factores que aumentan la dependencia tecnológica en el ámbito rural
-
     //- //p
     p.mb-5 A continuación, se presentan los principales factores que fortalecen la dependencia tecnológica en los predios agropecuarios, limitando su capacidad de adaptación y sostenibilidad:
-
     //- ## imagen-compuesto 4:8 (carrusel-tarjetas)
     .row.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
@@ -413,16 +381,13 @@
                   img(src="@/assets/curso/tema1/svg/37.svg" alt="")
             h5.text-center Pérdida de saberes productivos locales
             p.mb-0.text-center Desvalorización del conocimiento campesino y de la capacidad de innovación territorial.
-
     //- ### Desarticulación entre producción pecuaria y agrícola
     .titulo-h3.mb-5(data-aos="fade-right")
       .titulo-h3__fondo
         img.titulo-h3__imagen(src="@/assets/bullets/title-h3.svg")
         h3.titulo-h3__texto Desarticulación entre producción pecuaria y agrícola
-
     //- //p
     p.mb-5 Uno de los efectos más profundos del #[em Sistema Agroalimentario Dominante] (SAD) ha sido la ruptura de la relación funcional entre la producción agrícola y la producción pecuaria. Esta desarticulación ha provocado la fragmentación de los ciclos ecológicos dentro del predio, debilitando su capacidad de regeneración, eficiencia energética y funcionalidad sistémica. A continuación se comparan dos formas de organizar la producción y la propuesta agroecológica para integrar cultivos y animales.
-
     //- ## slider (4 slides)
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -455,16 +420,13 @@
             .col-lg-7.order-1.mb-3.mb-lg-0
               h5 Propuesta agroecológica: restaurar la integración
               p.mb-0 La transición agroecológica propone recuperar la integración entre cultivos y animales como base del diseño predial. Esto contempla planificar la producción de forrajes locales, usar residuos vegetales como alimento animal, transformar excretas en abonos orgánicos y establecer flujos internos de nutrientes, materia y energía. Con ello se fortalece la autonomía funcional, se mejora la eficiencia ecológica y el predio vuelve a operar como un sistema vivo, regenerativo y coherente con su contexto.
-
     //- //wrapper: bg-fondo-3
-    .bg-full-width.bg-fondo-3.mb-5
+    .bg-full-width.bg-fondo-3
       .px-4.px-md-5.py-4
         //- ##### Impactos de la desarticulación agrícola-pecuaria
         h4.mb-5.titulo-h4(data-aos="fade-right") Impactos de la desarticulación agrícola-pecuaria
-
         //- //p
         p.mb-5 A continuación, se resumen los principales impactos que genera la separación entre la producción agrícola y pecuaria, evidenciando cómo esta fragmentación debilita la funcionalidad del agroecosistema y refuerza la dependencia del modelo externo promovido por el SAD.
-
         //- ## tarjetas-icono 3 (col-lg-3, 4 cards)
         .row.mb-5
           .col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -499,21 +461,18 @@
                     img(src="@/assets/curso/tema1/svg/45.svg" alt="")
               h5.text-center Reducción de la eficiencia ecológica
               p.mb-0.text-center El predio opera de forma fragmentada, con baja capacidad de regeneración y adaptación.
-
         //- ### 1.2.6. Pérdida de semillas y saberes
         .titulo-h3.mb-5(data-aos="fade-right")
           .titulo-h3__fondo
             img.titulo-h3__imagen(src="@/assets/bullets/title-h3.svg")
             h3.titulo-h3__texto  Pérdida de semillas y saberes
-
         //- //p
         p La transformación del sistema agroalimentario bajo lógicas de mercado global ha generado una profunda erosión de la diversidad genética y cultural en los territorios rurales. La imposición de semillas comerciales, híbridas y transgénicas ha desplazado progresivamente las variedades criollas y nativas, junto con los saberes que las acompañan: formas de selección, conservación, intercambio, siembra y uso alimentario. A continuación se presentan los aspectos centrales relacionados con la pérdida de semillas y saberes en los territorios rurales.
-
     //- ## acordeon 4:8
     .row.align-items-center.mb-5
-      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema1/46.png" alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/46.png" alt="" style="max-width: 400px").m-auto
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .div(titulo="Naturaleza de la pérdida")
@@ -524,14 +483,13 @@
             p Al desaparecer las semillas, también se desvanecen los saberes asociados: calendarios de siembra, rituales de intercambio, prácticas de selección, formas de almacenamiento, recetas tradicionales y vínculos comunitarios. Esta erosión cultural debilita la soberanía alimentaria, la identidad territorial y la capacidad de regeneración desde el conocimiento local.
           .div(titulo="Propuestas de transición agroecológica")
             p La transición agroecológica propone recuperar y fortalecer los sistemas locales de semillas mediante bancos comunitarios, redes de intercambio, reproducción en finca, selección participativa y documentación de saberes. Estas estrategias permiten restaurar la diversidad genética, revitalizar la cultura campesina y consolidar la autonomía predial como base de la resiliencia territorial.
-
     //- ## compuesto-imagen 8:4 (bloquefoto)
-    .row.align-items-center.mb-5
-      .col-lg-8(data-aos="fade-right")
+    .row.align-items-center
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-5
           .row.justify-content-center.align-items-center
             .col-xl-auto
-              img(src="@/assets/curso/tema1/svg/47.svg" style="max-width: 420px" alt="").m-auto.mt-xl-0.mt-4
+              img(src="@/assets/curso/tema1/svg/47.svg" style="max-width: 140px" alt="").m-auto.mt-xl-0.mt-4
             .col-xl
               .p-4
                 p Los impactos que genera la dominación del sistema agroalimentario son:
@@ -548,7 +506,7 @@
                   li.mb-0
                     i.fas.fa-circle-check
                     | Desvinculación de las comunidades de sus prácticas ancestrales.
-      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/48.png" alt="").m-auto
 
